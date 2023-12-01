@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "29552769282",
+    "firebase_url": "https://utaronew-default-rtdb.firebaseio.com",
+    "project_id": "utaronew",
+    "storage_bucket": "utaronew.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:29552769282:android:55a8c015e2836533516a1b",
+        "android_client_info": {
+          "package_name": "com.example.utaronew"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "29552769282-na4b718hidghvla4c18cclk5hha3s042.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQydzhtm4P4OiwlbVT81qzbUDyB2BUoC0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "29552769282-na4b718hidghvla4c18cclk5hha3s042.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

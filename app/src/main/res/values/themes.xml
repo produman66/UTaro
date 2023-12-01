@@ -1,0 +1,130 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.UTARO" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">@color/black</item>
+    </style>
+
+    <style name="Theme.UTARO" parent="Base.Theme.UTARO" />
+
+    <style name="some_id">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#CEB4EF</item>
+        <item name="android:fontFamily">@font/inter_extrabold</item>
+    </style>
+    <style name="some_id1">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#845FB4</item>
+        <item name="android:fontFamily">@font/inter_extrabold</item>
+    </style>
+    <style name="some_id11">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#CEB4EF</item>
+        <item name="android:fontFamily">@font/inter_extrabold</item>
+    </style>
+    <style name="some_id12">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#845FB4</item>
+        <item name="android:fontFamily">@font/inter_extrabold</item>
+    </style>
+    <style name="newacc">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#845FB4</item>
+        <item name="android:fontFamily">@font/inter_extrabold</item>
+    </style>
+    <style name="button">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#ffff</item>
+        <item name="android:fontFamily">@font/inter_extrabold</item>
+    </style>
+    <style name="buttonGoro">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#ffff</item>
+        <item name="android:fontFamily">@font/inter_extrabold</item>
+    </style>
+    <style name="heading">
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">#F1E6FF</item>
+        <item name="android:fontFamily">@font/inter_extrabold</item>
+    </style>
+    <style name="taro_category">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#ffff</item>
+        <item name="android:fontFamily">@font/inter_extrabold</item>
+    </style>
+
+    <style name="little_heading">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#F1E6FF</item>
+        <item name="android:fontFamily">@font/inter_extrabold</item>
+    </style>
+    <style name="exit">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#FF4343</item>
+        <item name="android:fontFamily">@font/inter_extrabold</item>
+    </style>
+    <style name="change_pass">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#ffff</item>
+        <item name="android:fontFamily">@font/inter_extrabold</item>
+    </style>
+    <style name="pay">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#ffff</item>
+        <item name="android:fontFamily">@font/inter_extrabold</item>
+        <item name="android:elevation">10dp</item>
+        <item name="android:shadowColor">#F6F962</item>
+        <item name="android:ambientShadowAlpha">10</item>
+    </style>
+    <style name="LoginTextInputOuterFieldStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:layout_marginBottom">15dp</item>
+    </style>
+    <style name="LoginTextInputInnerFieldStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorHint">@color/black</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_in</item>-->
+        <item name="android:windowExitAnimation">@anim/slide_out</item>-->
+    </style>
+    <style name="AppBottomSheetDialogTheme"
+        parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/AppModalStyle</item>
+    </style>
+
+    <style name="AppModalStyle"
+        parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/bottom_sheet_background</item>
+    </style>
+    <style name="goro_output">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/germaniaone_regular</item>
+        <item name="android:shadowColor">#FFFF00</item>
+        <item name="android:shadowDx">2</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">7</item>
+    </style>
+    <style name="goro_output_heading">
+        <item name="android:textSize">36sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/germaniaone_regular</item>
+        <item name="android:shadowColor">#FFFF00</item>
+        <item name="android:shadowDx">2</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">7</item>
+    </style>
+    <style name="circularFab" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+</resources>

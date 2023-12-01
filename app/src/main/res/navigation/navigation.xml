@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/login">
+
+    <fragment
+        android:id="@+id/goroscopMain"
+        android:name="com.example.utaronew.ui.view.HoroscopeMain"
+        android:label="GoroscopMain"
+        tools:layout="@layout/goroscop_main">
+        <action
+            android:id="@+id/action_goroscopMain_to_goroPrognoz"
+            app:destination="@id/goroPrognoz" />
+        <action
+            android:id="@+id/action_goroscopMain_to_bottomFragment"
+            app:destination="@id/bottomFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/loveMain"
+        android:name="com.example.utaronew.LoveMain"
+        android:label="LoveMain"
+        tools:layout="@layout/love_main"/>
+    <fragment
+        android:id="@+id/taroMain"
+        android:name="com.example.utaronew.TaroMain"
+        android:label="TaroMain"
+        tools:layout="@layout/taro_main"/>
+    <fragment
+        android:id="@+id/profileMain"
+        android:name="com.example.utaronew.ProfileMain"
+        android:label="ProfileMain1"
+        tools:layout="@layout/profile_main"/>
+    <fragment
+        android:id="@+id/login"
+        android:name="com.example.utaronew.ui.view.Login"
+        android:label="Login"
+        tools:layout="@layout/login">
+        <action
+            android:id="@+id/action_login_to_signUp"
+            app:destination="@id/signUp" />
+        <action
+            android:id="@+id/action_login_to_taroMain"
+            app:destination="@id/taroMain" />
+    </fragment>
+    <fragment
+        android:id="@+id/signUp"
+        android:name="com.example.utaronew.ui.view.SignUp"
+        android:label="SignUp"
+        tools:layout="@layout/sign_up">
+        <action
+            android:id="@+id/action_signUp_to_taroMain"
+            app:destination="@id/taroMain" />
+    </fragment>
+    <fragment
+        android:id="@+id/goroPrognoz"
+        android:name="com.example.utaronew.ui.view.HoroscopeForecast"
+        android:label="GoroPrognoz"
+        tools:layout="@layout/goro_prognoz">
+        <argument
+            android:name="currentGoro"
+            app:argType="com.example.utaronew.data.room.entities.GoroscopListEntities" />
+        <action
+            android:id="@+id/action_goroPrognoz_to_goroOutput"
+            app:destination="@id/goroOutput" />
+    </fragment>
+    <dialog
+        android:id="@+id/bottomFragment"
+        android:name="com.example.utaronew.BottomFragment"
+        android:label="BottomFragment"
+        tools:layout="@layout/bottom_sheet_layout">
+    </dialog>
+    <fragment
+        android:id="@+id/goroOutput"
+        android:name="com.example.utaronew.ui.view.HoroscopeOutput"
+        android:label="GoroOutput"
+        tools:layout="@layout/goro_output"/>
+
+</navigation>

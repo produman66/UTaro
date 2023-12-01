@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="violetStart">#31105C</color>
+    <color name="violetFinish">#845FB4</color>
+    <color name="violetCenter">#5C398A</color>
+    <color name="violet250">#CEB4EF</color>
+    <color name="violet800">#5F3497</color>
+    <color name="violet1000">#31105C</color>
+    <color name="shadow">#F6F962</color>
+    <color name="shadowblue">#A2BEE7</color>
+    <color name="red">#FF4343</color>
+    <color name="selected">#6132FD23</color>
+    <color name="darkblue">#050D22</color>
+    <color name="darkblueyellow">#7E7134</color>
+    <color name="darkyellow">#F3C700</color>
+    <color name="darkyellow1">#ACA301</color>
+    <color name="darkyellow2">#615C01</color>
+
+</resources>
